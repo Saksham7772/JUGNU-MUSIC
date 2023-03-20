@@ -1,10 +1,10 @@
 module.exports = {
   TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+  PREFIX: process.env.PREFIX || ".",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
-    footertext: "Coded By Kabir Singh | Tech Boy Development",
+    footertext: "Made By Saksham",
   },
   emoji: {
     ERROR: "❌",
@@ -23,7 +23,7 @@ module.exports = {
     autoplay: "♾",
   },
   // others
-  mongodb: process.env.MONGO_URL || "MONGO_URL",
+  mongodb: process.env.MONGO_URL || "mongodb+srv://sestro:sestro@cluster0.zldd64l.mongodb.net/?retryWrites=true&w=majority",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
@@ -74,9 +74,9 @@ module.exports = {
     inviteURL:
       process.env.inviteURL ||
       `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
-    Website: `https://jugnu.netlify.app/`,
+    DiscordServer: process.env.DiscordServer || `https://discord.gg/`,
+    VoteURL: process.env.VoteURL || `https://discord.gg/`,
+    Website: `https://discord.gg/`,
   },
   options: {
     embedFooter: true,
